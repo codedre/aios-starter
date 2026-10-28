@@ -20,5 +20,5 @@ can use them.
 
 | Skill | What it does |
 |---|---|
-| `morning-brief` | A short morning summary of today's calendar, what needs a reply, and what's stuck |
-| `brain-map` | A 3D map of this folder: every file, and the links between them |
+| [morning-brief](morning-brief/SKILL.md) | A short morning summary of today's calendar, what needs a reply, and what's stuck |
+| [brain-map](brain-map/SKILL.md) | A 3D map of this folder: every file, and the links between them |
