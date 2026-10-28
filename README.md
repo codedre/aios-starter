@@ -20,6 +20,7 @@ starting over.
 | `inbox.md` | Ideas and to-dos you dump to look at later | All the time |
 | `notes/` | One page per person, company or project | As you learn things |
 | `skills/` | One folder per job you've explained more than once | When a job repeats |
+| `scripts/` | Small tools, like the brain map | Rarely |
 
 ## Your first 30 minutes
 
@@ -32,6 +33,19 @@ starting over.
 5. **Put the folder where your agents can read it.** See below.
 6. **Test it.** Ask any agent: "Read AGENTS.md and tell me who I am and what's stuck." If the
    answer is right, it works.
+
+## See your brain
+
+Ask any agent to "show me my brain", or run this yourself from the folder:
+
+```bash
+python3 scripts/brain-map.py --open
+```
+
+It draws every file as a glowing dot and every link between files as a line, in 3D. Click a
+dot to read the file. The map grows as you fill the folder in: every person, project and
+decision you add shows up as a new dot. It needs Python 3 and an internet connection, and the
+page it makes (`brain.html`) stays on your computer.
 
 ## Where to keep it
 
